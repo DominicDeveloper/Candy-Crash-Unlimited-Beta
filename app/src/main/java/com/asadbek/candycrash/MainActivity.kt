@@ -136,8 +136,7 @@ class MainActivity : AppCompatActivity() {
             var isBlank:Boolean = candy.get(i).tag == notCandy
             var x = i
 
-                if (candy.get(x).tag as Int == chosedCandy
-                    && !isBlank
+                if (candy.get(x).tag as Int == chosedCandy && !isBlank
                     && candy.get(x+noOfBlock).tag as Int == chosedCandy
                     && candy.get(x+2*noOfBlock).tag as Int == chosedCandy){
 
